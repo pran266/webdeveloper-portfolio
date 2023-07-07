@@ -1,0 +1,43 @@
+
+body{
+    font-family: font-family: 'Open Sans', sans-serif;;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #181818;
+font-size: 45px;
+font-weight: 800;
+
+
+}
+.text-orange{
+    color: orange;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+}
+.btn{
+    border-radius: 5px;
+   background: rgb(228, 173, 72);
+   border: 0;
+   color: white;
+   cursor: pointer;
+   font-size: 20px;
+   font-weight: 700;
+   padding: 10px 20px;
+
+
+}
